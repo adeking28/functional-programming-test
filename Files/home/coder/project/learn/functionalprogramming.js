@@ -2,9 +2,9 @@
     function consoleStyler( color, background, fontSize, txt ){
        let  message = "%c" +txt
         let style = `
-        color: ${color};
-        background: ${background};
-        font-size: ${fontSize};`
+        color:       ${color};
+        background:  ${background};
+        font-size:   ${fontSize};`
         console.log(message,style)
     }
    
